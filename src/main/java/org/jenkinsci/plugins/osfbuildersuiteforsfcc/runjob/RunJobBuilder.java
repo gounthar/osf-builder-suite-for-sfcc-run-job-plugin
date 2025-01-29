@@ -33,7 +33,9 @@ import org.jenkinsci.plugins.tokenmacro.TokenMacro;
 import org.kohsuke.stapler.*;
 
 import javax.annotation.Nonnull;
-import java.io.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
