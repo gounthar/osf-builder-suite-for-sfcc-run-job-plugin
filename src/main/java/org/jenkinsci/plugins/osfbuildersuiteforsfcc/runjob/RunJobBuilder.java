@@ -304,7 +304,7 @@ public class RunJobBuilder extends Builder implements SimpleBuildStep {
         }
 
         @Override
-        public boolean configure(StaplerRequest req, JSONObject formData) throws FormException {
+        public boolean configure(StaplerRequest2 req, JSONObject formData) throws FormException {
             httpProxyCredentialsId = formData.getString("httpProxyCredentialsId");
             disableSSLValidation = formData.getBoolean("disableSSLValidation");
 
